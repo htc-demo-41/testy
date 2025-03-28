@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "testy"
+  description: "testy"
+  tags:
+    - java
+    - quarkus
+  annotations:
+    'github.com/project-slug': htc-demo-41/testy
+    'backstage.io/kubernetes-id': testy
+    'humanitec.com/orgId': "htc-demo-41"
+    'humanitec.com/appId': "testy"
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "group:default/jayonthenet"
