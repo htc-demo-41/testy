@@ -14,4 +14,4 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: "group:default/jayonthenet"
+  owner: "user:default/jayonthenet"
